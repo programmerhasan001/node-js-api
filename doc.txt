@@ -1,0 +1,16 @@
+Uptime Monitoring App:
+1. Add url for monitor (get sms notification when link or url down or live).
+2. For notification use tuilo api
+3. user sign up (login & logout)
+4. user can change setting and update when logedIn.
+
+
+ Requirements:
+ 1. make an api server (will listen a port and handle http requests). [get, post, put, delete ....].
+ 2. api can connect client and create user, update and delete user.
+ 3. api will allow user to signin, mechanism (Token based authentication).
+ 4. logout mechanism can invalid token.
+ 5. with this api loggedin user can check their given site is in live or down.
+ 6. user can deside what is up/live or down to him.
+ 7. user can edit or delte their links & sate maximum link add limit.
+ 8. somehow background process will will watch that users added url is live or down and send response by SMS. 
